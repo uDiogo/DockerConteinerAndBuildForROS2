@@ -38,4 +38,4 @@ Demonstração prática da comunicação entre nós (Nodes) utilizando a arquite
 ### 3. Simulação Gráfica (Gazebo Harmonic)
 O container está configurado para suportar interfaces gráficas (GUI), permitindo a execução do simulador Gazebo e ferramentas como Rviz.
 
-![Ambiente Gazebo](assets/AplicaçãoDentroConteiner_Listener_TalkingPY.png)
+![Ambiente Gazebo](assets/assets/AplicaçãoDentroConteiner_Listener_TalkingPy.png)
