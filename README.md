@@ -22,16 +22,16 @@ Utilizamos **Docker Volumes** para mapear o código local (`./src`) para dentro 
 ### 1. Infraestrutura e Compilação
 O ambiente é construído de forma automatizada. Abaixo, a confirmação do build do Docker e a preparação do workspace.
 
-| Build do Docker | Terminal Pós-Build |
+| Build do Docker 
 |:---:|:---:|
-| ![Build com Sucesso](assets/Build-docker-sucesso.png) | ![Terminal Configurado](assets/Terminal-apos-build-Docker.png) |
+| ![Build com Sucesso](assets/Build-docker-sucesso.png) | 
 
 ---
 
 ### 2. Execução e Comunicação (ROS 2)
 Demonstração prática da comunicação entre nós (Nodes) utilizando a arquitetura Publisher/Subscriber dentro do container isolado.
 
-![Talker e Listener](assets/AplicaçãoDentroConteiner_Listener_Talker.png)
+![Talker e Listener](assets/Terminal-apos-build-Docker.png) 
 
 ---
 
