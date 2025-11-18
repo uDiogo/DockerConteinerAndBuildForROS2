@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ros-dev:
+    build: .
+    image: ros2-turtlebot-env
+    container_name: ros2-developer-node
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      # Configuração para Interface Gráfica (Gazebo/Rviz) funcionar
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # Mapeamento do seu código fonte local para dentro do container
+      - ./src:/opt/ros/overlay_ws/src/my_packages
+    stdin_open: true # equivalente a -i
+    tty: true        # equivalente a -t
+    command: /bin/bash
